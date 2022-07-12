@@ -64,7 +64,7 @@ const Registrar = () => {
 
   return (
     <>
-        <h1 className="text-sky-600 font-black text-6xl capitalize text-center">Crea tu cuenta y administra tus
+        <h1 className="text-teal-600 font-black text-6xl capitalize text-center">Crea tu cuenta y administra tus
         <span className="text-slate-700"> pacientes</span></h1>
 
         <form 
@@ -127,7 +127,7 @@ const Registrar = () => {
                     onChange={e => setRepetirPassword(e.target.value)}
                 />
             </div>
-            <input type="submit" value="Crear cuenta" className="bg-sky-700 mb-5 w-full py-3 text-white uppercase font-bold rounded hover:cursor-pointer hover:bg-sky-800 transition-colors"/>
+            <input type="submit" value="Crear cuenta" className="bg-teal-700 mb-5 w-full py-3 text-white uppercase font-bold rounded hover:cursor-pointer hover:bg-teal-800 transition-colors"/>
         </form>
 
         { msg && <Alerta alerta={alerta}/> }

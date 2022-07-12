@@ -19,27 +19,27 @@ const VerPaciente = () => {
 
     <div>
         <>
-         <h1 className="font-black text-4xl text-sky-600"> Ver Paciente: {paciente.nombre} </h1>
+         <h1 className="font-black text-4xl text-teal-600"> Ver Paciente: {paciente.nombre} </h1>
             <p className="mt-3">Detalles del Paciente</p>
 
         <p className="text-3xl text-grey-600 mt-10">
-            <span className="text-sky-800 uppercase font-bold">Paciente : </span>
+            <span className="text-teal-800 uppercase font-bold">Paciente : </span>
                 {paciente.nombre} </p>
         <p className="text-xl text-grey-600 mt-4">
-            <span className="text-sky-800 uppercase font-bold">Email : </span>
+            <span className="text-teal-800 uppercase font-bold">Email : </span>
                 {paciente.email} </p>
         <p className="text-xl text-grey-600 mt-4">
-            <span className="text-sky-800 uppercase font-bold">Telefono : </span>
+            <span className="text-teal-800 uppercase font-bold">Telefono : </span>
                 {paciente.telefono} </p>
         <p className="text-xl text-grey-600 mt-4">
-            <span className="text-sky-800 uppercase font-bold">Edad : </span>
+            <span className="text-teal-800 uppercase font-bold">Edad : </span>
                 {paciente.edad} </p>
         <p className="text-xl text-grey-600 mt-4">
-            <span className="text-sky-800 uppercase font-bold">Peso : </span>
+            <span className="text-teal-800 uppercase font-bold">Peso : </span>
                 {paciente.peso} </p>
         {paciente.notas && ( 
             <p className="text-xl text-grey-600 mt-4">
-            <span className="text-sky-800 uppercase font-bold">Notas : </span>
+            <span className="text-teal-800 uppercase font-bold">Notas : </span>
              {paciente.notas} </p>
             )}
         </>

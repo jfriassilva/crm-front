@@ -33,7 +33,7 @@ const Paciente = ({paciente}) => {
                 >Ver</button>
             <button
                 type="Button"
-                className="bg-sky-600 hover:bg-sky-800 block w-full text-white p-2 uppercase fond-bold text-xs mt-3"
+                className="bg-teal-600 hover:bg-teal-800 block w-full text-white p-2 uppercase fond-bold text-xs mt-3"
                 onClick={() => navigate(`/pacientes/editar/${_id}`)}
                 >Editar</button>
             <button

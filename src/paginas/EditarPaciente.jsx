@@ -18,7 +18,7 @@ const EditarPaciente = () => {
 
   return (
     <>
-      <h1 className="font-black text-4xl text-sky-600">Editar Paciente: {nombre}</h1>
+      <h1 className="font-black text-4xl text-teal-600">Editar Paciente: {nombre}</h1>
         <p className="mt-3">
           Utiliza este formulario para editar datos de un paciente
         </p>

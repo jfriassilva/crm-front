@@ -37,7 +37,7 @@ const OlvidePassword = () => {
 
   return (
     <>
-        <h1 className="text-sky-600 font-black text-6xl capitalize text-center">Recuperar tu acceso</h1>
+        <h1 className="text-teal-600 font-black text-6xl capitalize text-center">Recuperar tu acceso</h1>
         
         {msg && <Alerta alerta={alerta} />}
 
@@ -59,7 +59,7 @@ const OlvidePassword = () => {
                     onChange={e => setEmail(e.target.value)}
                 />
             </div>
-            <input type="submit" value="Enviar Instrucciones" className="bg-sky-700 mb-5 w-full py-3 text-white uppercase font-bold rounded hover:cursor-pointer hover:bg-sky-800 transition-colors"/>
+            <input type="submit" value="Enviar Instrucciones" className="bg-teal-700 mb-5 w-full py-3 text-white uppercase font-bold rounded hover:cursor-pointer hover:bg-teal-800 transition-colors"/>
         </form>
 
         <nav className="lg:flex lg:justify-between">

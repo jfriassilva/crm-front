@@ -18,15 +18,15 @@ if(cargando) return <Spinner/>
       <div className="bg-gray-100 " >
         <Header />
          <div className="md:flex md:min-h-screen">
-          <div className="mx-auto bg-sky-600 px-5 py-10">
+          <div className="mx-auto bg-teal-600 px-5 py-10">
               <h2 className= "text-4xl font-black text-center text-white">Bienvenido: {auth.nombre}</h2>
 
               <nav className="mt-10">
                 <Link
-                  className={`${urlActual === '/pacientes' ? 'text-blue-300' : 'text-white'} text-2xl block mt-2 hover:text-blue-300`}
+                  className={`${urlActual === '/pacientes' ? 'text-teal-300' : 'text-white'} text-2xl block mt-2 hover:text-teal-300`}
                   to="/pacientes">Pacientes</Link>
                 <Link 
-                  className={`${urlActual === '/pacientes/nuevo' ? 'text-blue-300' : 'text-white'} text-2xl block mt-2 hover:text-blue-300`}
+                  className={`${urlActual === '/pacientes/nuevo' ? 'text-teal-300' : 'text-white'} text-2xl block mt-2 hover:text-teal-300`}
                   to="/pacientes/nuevo">Nuevo Paciente</Link>
               </nav>
             </div>

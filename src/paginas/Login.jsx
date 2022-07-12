@@ -44,7 +44,7 @@ const Login = () => {
 
   return (
     <>
-        <h1 className="text-sky-600 font-black text-6xl capitalize text-center">Inicia sesión y administra tus 
+        <h1 className="text-teal-600 font-black text-6xl capitalize text-center">Inicia sesión y administra tus 
         <span className="text-slate-700"> pacientes</span></h1>
 
         {msg && <Alerta alerta={alerta} />}
@@ -81,7 +81,7 @@ const Login = () => {
                     onChange= { e => setPassword(e.target.value)}
                 />
             </div>
-            <input type="submit" value="Iniciar Sesión" className="bg-sky-700 mb-5 w-full py-3 text-white uppercase font-bold rounded hover:cursor-pointer hover:bg-sky-800 transition-colors"/>
+            <input type="submit" value="Iniciar Sesión" className="bg-teal-700 mb-5 w-full py-3 text-white uppercase font-bold rounded hover:cursor-pointer hover:bg-teal-800 transition-colors"/>
         </form>
 
         <nav className="lg:flex lg:justify-between">

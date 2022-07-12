@@ -62,7 +62,7 @@ const NuevoPassword = () => {
 
     return (
       <>
-      <h1 className="text-sky-600 font-black text-6xl capitalize text-center">Restablecer Contraseña</h1>
+      <h1 className="text-teal-600 font-black text-6xl capitalize text-center">Restablecer Contraseña</h1>
 
         {msg && <Alerta alerta={alerta}/>} 
 
@@ -85,7 +85,7 @@ const NuevoPassword = () => {
                     onChange={e => setPassword(e.target.value)}
                 />
             </div>
-            <input type="submit" value="Guardar contraseña" className="bg-sky-700 mb-5 w-full py-3 text-white uppercase font-bold rounded hover:cursor-pointer hover:bg-sky-800 transition-colors"/>
+            <input type="submit" value="Guardar contraseña" className="bg-teal-700 mb-5 w-full py-3 text-white uppercase font-bold rounded hover:cursor-pointer hover:bg-teal-800 transition-colors"/>
         </form>
      )}
         {passwordModificada && (

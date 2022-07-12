@@ -37,7 +37,7 @@ useEffect(() => {
 
   return (
     <>
-    <h1 className="font-black text-4xl text-sky-600">Pacientes</h1>
+    <h1 className="font-black text-4xl text-teal-600">Pacientes</h1>
     <p className="mt-3">Administra tus pacientes</p>
     
     <div className="flex justify-end md:flex-row items-center gap-4">
@@ -51,7 +51,7 @@ useEffect(() => {
       </div>
   
     <table className="w-full mt-5 table-auto shadow bg-white">
-      <thead className='bg-sky-600 text-white'>
+      <thead className='bg-teal-600 text-white'>
         <tr>
           <th className="p-2">Nombre</th>
           <th className="p-2">Contacto</th>
